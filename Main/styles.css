@@ -49,3 +49,13 @@ background-image:url(Images/Viennoiserie.jpg);
 margin: 35px;
 
 }
+.contenu
+{
+display: flex;
+flex-direction:row;
+background:rgb(175, 174, 174)
+
+
+
+
+}
