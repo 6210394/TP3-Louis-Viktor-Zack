@@ -25,3 +25,27 @@
     width: 100%;
     height: 1000px;
 }
+.barreheaderVien
+{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #cfa25e;
+   
+
+}
+.petitcreux
+{
+color: white;
+
+}
+
+.titrepage
+{
+display: flex;
+justify-content: center;
+font-size: 28px;
+background-image:url(Images/Viennoiserie.jpg);
+margin: 35px;
+
+}
