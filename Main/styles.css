@@ -231,6 +231,20 @@ font-size: large;}
     padding-top: 30px;
 }
 
+.containerPropos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 168, 168);
+    width: 90%;
+    justify-content: center;
+    height: 800px;
+    margin: auto;
+    
+}
+
 /* Boutton */
 .backgroundImg
 {
