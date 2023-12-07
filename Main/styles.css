@@ -8,6 +8,11 @@ p
     transform: translate(0, -30px);
 }
 
+.bouttonAudio
+{
+    transform: translate(0, 13px);
+}
+
 .barreheader
 {
     /*border: solid black 2px;*/
@@ -216,7 +221,6 @@ p
     width: 95%;
     height: 300px;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .indexTop
@@ -250,6 +254,7 @@ p
     height: 1200px;
     margin-top: 50px;
     padding-top: 30px;
+    margin-bottom: 200px;
 }
 
 .containerPropos
