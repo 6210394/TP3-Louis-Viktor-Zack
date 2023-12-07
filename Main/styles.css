@@ -21,32 +21,6 @@ p
     width: 100%;
     height: 100px;
     background-color: #948062;
-    justify-content: space-between;
-}
-
-.headerContent
-{
-    display: flex;
-    flex-direction: row;
-    width: 600px;
-    align-items: center;
-}
-
-.headerBouttons
-{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-  
-.headerBouttons .btn {
-  position: absolute;
-  transform: translate(-100%, 0%);
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  border-color: aqua;
-  opacity: 0%;
 }
 
 .barrefooter
@@ -138,7 +112,7 @@ p
     color: white;
 }
 
-.white
+.petitcreux
 {
     color: white;
 }
@@ -268,7 +242,7 @@ p
     height: 1200px;
     margin-top: 50px;
     padding-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
 }
 
 .containerPropos
@@ -282,12 +256,6 @@ p
     margin: auto;
     margin-bottom: 20px;
 }
-
-.indexBread
-{
-    padding-bottom: 20px;
-}
-
 
 /* Boutton */
 .backgroundImg
@@ -329,10 +297,26 @@ p
     align-items: center;
     background-color: white;
     width: 90%;
-    height: 800px;
+    height: 1000px;
     margin: auto;
     margin-bottom: 20px;
     font-size:43px
+
+
+
   }
+  .flexcontact1
+  {
+display: flex;
+flex-direction: row;
+width: 1000px;
+justify-content: space-between;
 
-
+  }
+  .flexcontact2
+  {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content:space-between
+  }
