@@ -297,3 +297,18 @@ p
     background-color: black;
     opacity: 100%;
   }
+  .containerContact
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size:43px
+
+
+
+  }
