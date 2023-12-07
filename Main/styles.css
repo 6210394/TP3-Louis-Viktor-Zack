@@ -1,3 +1,7 @@
+p
+{
+font-size: large;}
+
 .barreheader
 {
     /*border: solid black 2px;*/
@@ -22,19 +26,19 @@
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 1000px;
+    background-color: rgb(255, 255, 255);
 }
+
 .barreheaderVien
 {
     display: flex;
     width: 100%;
     height: 100px;
     background-color: #cfa25e;
-   
-
 }
+
 .barrefooterVien
 {
     display: flex;
@@ -51,10 +55,8 @@
     width: 100%;
     height: 100px;
     background-color: #c67505;
-
-
-
 }
+
 .barrefooterBoul
 {
     display: flex;
@@ -72,10 +74,8 @@
     width: 100%;
     height: 100px;
     background-color: #452a04;
-
-
-
 }
+
 .barrefooterChoc
 {
     display: flex;
@@ -84,21 +84,16 @@
     height: 100px;
     background-color: #452a04;
     justify-content: center;
-
-
-
-
-
 }
+
 .barreheaderCafe
 {
     display: flex;
     width: 100%;
     height: 100px;
     background-color: #a46000;
-
-
 }
+
 .barrefooterCafe
 {
     display: flex;
@@ -107,31 +102,28 @@
     height: 100px;
     background-color: #a46000;
     justify-content: center;
-
-
 }
+
 .footertext
 {
-display: flex;
-flex-direction: column;
-align-items: center;
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
+
 .petitcreux
 {
-color: white;
-
+    color: white;
 }
 
 .titrepage
 {
-display: flex;
-justify-content: center;
-font-size: 28px;
-background-image:url(Images/Viennoiserie.jpg);
-margin: 35px;
-
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    background-image:url(Images/Viennoiserie.jpg);
+    margin: 35px;
 }
 
 
@@ -142,19 +134,19 @@ margin: 35px;
     font-size: 28px;
     background-image:url(Images/Boulangerie.jpg);
     margin: 35px;
-
-
 }
+
 .titrepageChoc
 {
     display: flex;
     justify-content: center;
     font-size: 28px;
     background-image:url(Images/Chocolaterie.jpg);
+    background-size: contain;
+    opacity: 50%;
     margin: 35px;
-
-
 }
+
 .titrepageCafe
 {
     display: flex;
@@ -162,40 +154,108 @@ margin: 35px;
     font-size: 28px;
     background-image:url(Images/Cafe.jpg);
     margin: 35px;
-
 }
+
 .contenu
 {
-display: flex;
-flex-direction:row;
-background:rgb(175, 174, 174);
-border: solid white 20px;
-
-
-
+    display: flex;
+    flex-direction:row;
+    background:rgb(175, 174, 174);
+    border: solid rgb(255, 255, 255) 20px;
 }
+
 .textecontenu
 {
-display: flex;
-flex-direction: column;
-text-align: left;
-margin: 20px;
-
-
-
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
 }
+
 .Propos
 {
-display:flex;
-justify-content: center;
-
-
-
+    display:flex;
+    justify-content: center;
 }
+
 .Propostext
 {
-background:gray
-
-
-
+    background:gray
 }
+
+
+.contenuIndex
+{
+    display: flex;
+    flex-direction:row;
+    background:rgb(175, 174, 174);
+    align-content: center;
+    width: 70%;
+}
+
+.indexTop
+{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 95%;
+}
+.indexText
+{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 95%;
+    max-width: 1000px;
+}
+
+.containerIndex
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 168, 168);
+    width: 90%;
+    justify-content: center;
+    height: 1200px;
+}
+
+/* Boutton */
+.backgroundImg
+{
+    opacity: 50%;
+}
+
+.container {
+    position: relative;
+    width: 100%;   
+    padding: 20px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+  }
+  
+  .container .btn {
+    position: absolute;
+    transform: translate(-100%, 0%);
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-color: aqua;
+    opacity: 0%;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    opacity: 100%;
+  }
